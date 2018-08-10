@@ -2,7 +2,9 @@ body {
   text-align: center;
   background-color: #ccffff
 }
-
+.container {
+  float: left;
+}
 img {
   position: top right;
   float: right;
