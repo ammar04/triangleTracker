@@ -20,3 +20,5 @@ Output Example: equilateral
 * The program should return 'isosceles'
 Input Example: side[0] === side[1] || side[1] === side[2] || side[0] === side[2]
 Output Example: isosceles
+# link to live website
+* https://ammar04.github.io/triangleTracker/
