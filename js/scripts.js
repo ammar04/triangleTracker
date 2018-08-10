@@ -1,27 +1,25 @@
-var triangle =function() {
+function triangle(){
+	var tracker = [];
 
-function check_triangleTracker(){
-	var triangle = [];
-
-	triangle.push(parseInt(prompt("Enter the first dimension of the triangle: ")));
-		if(isNaN(triangle[0]) === true || triangle[0] <= 0){
-			alert("Please enter a valid dimension");
+	tracker.push(parseInt(prompt("Enter the first number of the triangle: ")));
+		if(isNaN(tracker[0]) === true || tracker[0] <= 0){
+			alert("Please enter a valid number");
 		}else{
-			triangle.push(parseInt(prompt("Enter the second dimension of the triangle:")));
-				if(isNaN(triangle[1]) === true || triangle[1] <= 0){
-					alert("Please enter a valid dimension");
+			tracker.push(parseInt(prompt("Enter the second number of the triangle:")));
+				if(isNaN(tracker[1]) === true || tracker[1] <= 0){
+					alert("Please enter a valid number");
 				}else{
-					triangle.push(parseInt(prompt("Enter the third dimension of the triangle:")));
-					if(isNaN(triangle[2]) === true || triangle[2] <= 0){
-						alert("Please enter a valid dimension");
+					tracker.push(parseInt(prompt("Enter the third number of the triangle:")));
+					if(isNaN(tracker[2]) === true || tracker[2] <= 0){
+						alert("Please enter a valid number");
 					}else{
-						if((triangle[0] + triangle[1]) <= triangle[2] || (triangle[1] + triangle[2]) <= triangle[0] || (triangle[0] + triangle[2]) <= triangle[1]){
-							alert("It's not a triangle");
+						if((tracker[0] + tracker[1]) <= tracker[2] || (tracker[1] + tracker[2]) <= tracker[0] || (tracker[0] + tracker[2]) <= tracker[1]){
+							alert("It's NOT A triangle");
 						}
-							else if(triangle[0] === triangle[1] && triangle[1] === triangle[2]){
+							else if(tracker[0] === tracker[1] && tracker[1] === tracker[2]){
 								alert("It is an equilateral triangle");
 							}
-							else if(triangle[0] === triangle[1] || triangle[1] === triangle[2] || triangle[0] === triangle[2]){
+							else if(tracker[0] === tracker[1] || tracker[1] === tracker[2] || tracker[0] === tracker[2]){
 								alert("It's an isosceles triangle");
 							}else{
 								alert("It's a scarlene triangle");

@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  background-color: #ccffff
+}
+.container {
+  float: left;
+}
+img {
+  position: top right;
+  float: right;
+  border: : 5px solid grey;
+  border-radius: 50px;
+  margin: 1px 10px 10px 100px;
+  padding: 10px
+
+}
+p {
+  float: left;
+}
+button {
+  background-color: black;
+  color: white;
+  font-size: 200%;
+}
+ul li {
+  list-style-position: inside;
+}
