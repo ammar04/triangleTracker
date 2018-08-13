@@ -5,15 +5,6 @@ body {
 .container {
   float: left;
 }
-img {
-  position: top right;
-  float: right;
-  border: : 5px solid grey;
-  border-radius: 50px;
-  margin: 1px 10px 10px 100px;
-  padding: 10px
-
-}
 p {
   float: left;
 }
@@ -24,4 +15,9 @@ button {
 }
 ul li {
   list-style-position: inside;
+}
+html {
+  background-image: url("../images/triangle.jpg");
+  background-position: top right;
+  background-repeat: no-repeat;
 }
